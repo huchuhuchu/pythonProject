@@ -21,7 +21,7 @@ def save_image(image_url, file_name):
 
 # 이미지 검색
 url = "https://dapi.kakao.com/v2/search/image"
-headers = {"Authorization": "KakaoAK 07161ceffeaceb948067e2c3f40ccdf3"}
+headers = {"Authorization": "KakaoAK key"}
 data = {"query": search_keyword}
 
 # 서버로 이미지 검색 요청

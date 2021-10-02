@@ -6,7 +6,7 @@ import json
 # search img
 url = "https://dapi.kakao.com/v2/search/image"
 headers = {
-    "Authorization" : "KakaoAK 07161ceffeaceb948067e2c3f40ccdf3"
+    "Authorization" : "KakaoAK key"
 }
 data = {
     "query" : "bmo"
